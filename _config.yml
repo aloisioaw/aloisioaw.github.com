@@ -1,0 +1,14 @@
+# Site settings
+title: Dev is Awesome!
+email: aloisioaw@gmail.com
+description: "Minhas anotações sobre desenvolvimento de software e outras coisas."
+baseurl: ""
+url: "http://aloisioaw.github.io/"
+twitter_username: aloisioaw
+github_username:  aloisioaw
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
