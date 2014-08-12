@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Glassfish: Como retirar informações desnecessárias do header da requisição"
+author: Aloisio Arsego Wohlmeister
 categories: glassfish header requisição segurança
 ---
 
@@ -15,9 +16,9 @@ Achei o [seguinte texto](http://alexismp.wordpress.com/2010/09/07/chameleon-glas
 
 Mas, como bom preguiçoso, e como só ia deixar isso configurado em produção, mesmo, e não nos diversos domains que mantenho para cada versão do sistema que tenho, montei um passo a passo de como fazer a mesma coisa utilizando a administração do Glassfish.
 
-*   Configurations > server-config > Network Config > HTTP Listeners > http-listener-1 > Aba HTTP > Desmarcar a opção "XPowered By";
-*   Configurations > server-config > JVM Settings > Adicionar a opção -Dproduct.name="";   
-*   Reiniciar o servidor;(obrigatório)   
+*   Menu lateral > Configurations > server-config > Network Config > HTTP Listeners > http-listener-1 > Aba HTTP > Desmarcar a opção "XPowered By";
+*   Menu lateral > Configurations > server-config > JVM Settings > Adicionar a opção -Dproduct.name="";   
+*   Reiniciar o servidor é *obrigatório*;  
 
 Simples, não?
 
