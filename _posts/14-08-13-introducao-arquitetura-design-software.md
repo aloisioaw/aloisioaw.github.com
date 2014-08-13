@@ -12,7 +12,7 @@ Estou lendo este incrível livro no momento. É impressionante a quantidade de c
 Agora me deparo com diversas explicações sucintas e efetivas sobre os mais diversos pontos: DDD, Injeção de Dependências, Gerenciamento de Memória do Java, Garbage Collector, PermGen Space e muitos outros.
 Gosto da maneira como o livro foi escrito pelo fato de não ser difícil de entendê-lo, mesmo não sendo um programador de longa data.   
 
-Achei muito proveitoso o subcapítulo sobre classloader hell. Foi muito interessante pois agregou uma parte que eu desconhecia: um dos pontos essenciais do Java, o classloader. Daí passei a entender os malditos OutOfMemoryError do GlassFish que tanto me assolam no trabalho. Também, por conta dessa leitura, senti a necessidade de começar a estudar o Java 8.  
+Achei muito proveitoso o subcapítulo sobre classloader hell. Foi muito interessante pois agregou uma parte que desconhecia: um dos pontos essenciais do Java, o classloader. Daí passei a entender os malditos OutOfMemoryError do GlassFish que tanto me assolam no trabalho. Também, por conta dessa leitura, senti a necessidade de começar a estudar o Java 8.  
 
 Não concluí a leitura do mesmo, pois tenho o costume de ler as coisas e ter um certo tempo para digerí-las. Porém, até a metade do livro tive um grande aprendizado.
 Recomendo a compra e leitura deste livro. Não é um livro caro, tendo preços até mesmo perto dos R$40,00 e o retorno é certo.
