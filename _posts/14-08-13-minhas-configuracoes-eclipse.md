@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Configurações do Eclipse"
+title:  "Minhas Configurações do Eclipse"
 author: Aloisio Arsego Wohlmeister
 categories: eclipse configurações
 ---

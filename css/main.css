@@ -428,3 +428,11 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* Outros */
+
+.capa-livro {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
