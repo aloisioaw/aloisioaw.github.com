@@ -83,9 +83,11 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  position: fixed;
+  width: 100%;
   padding: 10px 0;
   background-color: #000000;
+  bottom: 0;
 }
 
 .footer-heading {
@@ -123,7 +125,7 @@ a:visited { color: #205caa; }
 
 .contacts {
   float: right;
-  width: 77px;
+  width: 78px;
 }
 
 .site-footer ul { list-style: none; }
@@ -165,10 +167,10 @@ a:visited { color: #205caa; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { margin-bottom: 15px; }
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: -1px;
   line-height: 1;
 }
