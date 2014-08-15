@@ -2,7 +2,7 @@
 layout: post
 title:  "Glassfish: Como retirar informações desnecessárias do header da requisição"
 author: Aloisio Arsego Wohlmeister
-categories: glassfish header requisição segurança
+categories: segurança
 ---
 
 Durante o desenvolvimento de um projeto que utiliza a combinação de Glassfish e JSF 2.0, estava buscando por possíveis falhas de segurança, ou envio de informações desnecessárias nas respostas das requisições, e notei, ao verificar as respostas no console do Chrome, que haviam algumas informações que, sinceramente, não tem necessidade *nenhuma* de serem enviadas ao browser do usuário.  

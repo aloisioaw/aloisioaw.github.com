@@ -2,7 +2,7 @@
 layout: post
 title:  "Livro - Introdução a Arquitetura e Design de Software - Pre-Review"
 author: Aloisio Arsego Wohlmeister
-categories: livros arquitetura
+categories: livros
 ---
 
 <img src="/images/livros/capa-introducao-arquitetura-design-software.png" class="capa-livro"/>
