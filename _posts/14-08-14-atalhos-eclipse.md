@@ -29,5 +29,6 @@ Meus atalhos preferidos são:
 *  (Numa classe Java)CTRL + O: Outline. Possibilita que você pesquise atributos e métodos.
 
 Agora, esse último atalho não é lá muito útil sem uma maneira de abrir/selecionar a visão de servidores com um atalho também. Pois bem, isso é configurável.  
+
 Em Window/Preferences, pesquise por Keys e selecione a opção que aparecer. Então, na tela ao lado, pesquise por Show View (Servers). Não esqueça de configurar a opção "When" como "In windows", para que o atalho fique disponível em todo e qualquer lugar do Eclipse. Costumo configurá-lo assim: ALT + SHIFT + Q (solta) + 1. É uma sequência estranha, mas em pouco tempo se torna prática.
 Esqueci de algo?

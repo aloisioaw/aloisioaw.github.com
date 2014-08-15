@@ -11,7 +11,9 @@ As maiores foram(em ordem cronológica):
 
 * HTML;  
 * CSS;  
-* JavaScript(muito mais JQuery do que JavaScript, mas é bom saber um pouco da base ao menos);  
+* JavaScript(muito mais jQuery do que JavaScript, mas é bom saber um pouco da base ao menos);  
 * PHP;  
 * Delphi;  
 * Java(e uma infinidade de especificações do mesmo);  
+
+Tenho um interesse especial por Ruby, seus frameworks e comunidade, apesar de nunca ter conseguido trabalhar ou estudar muito além de alguns scripts com ela.
