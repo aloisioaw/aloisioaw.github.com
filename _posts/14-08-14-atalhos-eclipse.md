@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Glassfish: Como retirar informações desnecessárias do header da requisição"
+title:  "Atalhos do Eclipse"
 author: Aloisio Arsego Wohlmeister
 categories: eclipse atalhos
 ---
