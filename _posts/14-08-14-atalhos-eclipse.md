@@ -11,7 +11,7 @@ Meus atalhos preferidos são:
 *  CTRL + D: Remove a linha atual inteira. (Como é bom não ter que selecionar a linha toda e apagar);
 *  CTRL + Espaço: Sugestão/Auto-Completar de Código; (Amigo de todo desenvolvedor)
 *  CTRL + 3: Acesso rápido. Permite criar arquivos, abrir visões, comandos, preferências e mais uma infinidade de coisas; (Vale MUITO a pena conhecer)
-*  ALT + SHIFT + C: Abre o console; (Sem mais)
+*  ALT + SHIFT + Q (solta) C: Abre o console; (Sem mais)
 *  CTRL + 1: Quick fix. Agiliza aquela correçãozinha de import que ficou faltando quando você estava escrevendo aquele código inspirado e resolveu escrever tudo duma vez antes de ir importando as dependências;
 *  CTRL + F8: Muda de perspectiva. Perspectiva, sabe? Debug, Team Synchronizing, Java EE, Java;
 *  CTRL + M: Maximiza a tela selecionada. Ou seja, se você estiver com o editor de código selecionado, ele será maximizado, escondendo as outras telas/abas/visões;
