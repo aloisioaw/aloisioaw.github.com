@@ -3,6 +3,7 @@ layout: post
 title:  "Atalhos do Eclipse"
 author: Aloisio Arsego Wohlmeister
 categories: eclipse
+comments: true
 ---
 
 Se há uma coisa que prezo em momentos de foco total no código são os atalhos disponíveis. E o Eclipse é muito bom nisso. Há atalhos disponíveis para que você praticamente não precise utilizar o mouse, o que aumenta consideravelmente a sua velocidade.  

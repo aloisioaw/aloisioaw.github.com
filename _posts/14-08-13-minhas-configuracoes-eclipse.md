@@ -3,6 +3,7 @@ layout: post
 title:  "Minhas Configurações do Eclipse"
 author: Aloisio Arsego Wohlmeister
 categories: eclipse
+comments: true
 ---
 
 
