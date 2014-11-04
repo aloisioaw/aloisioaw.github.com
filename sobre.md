@@ -4,7 +4,7 @@ title: Sobre
 permalink: /sobre/
 ---
 
-Sou um desenvolvedor de sistemas que mora em Passo Fundo - RS, que busca conhecer um bocado de tudo o que há nessa fantástica área.  
+Sou um desenvolvedor de sistemas que mora em <strike>Passo Fundo</strike> Porto Alegre - RS, que busca conhecer um bocado de tudo o que há nessa fantástica área.  
 
 Trabalho desde 2010 profissionalmente na área de desenvolvimento de sistemas. Desde então, tive diversas experiências com variadas tecnologias.
 As maiores foram(em ordem cronológica):  
