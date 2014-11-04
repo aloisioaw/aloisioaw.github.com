@@ -13,16 +13,18 @@ Além disso, algumas linguagens tem padrões definidos pelas comunidades de util
 
 Nesse primeiro post, me aterei a nomenclatura de atributos e métodos.
 
-Exemplos em Java, sem anotações nem getters e setters:
+Exemplos em Java, sem annotations nem getters e setters:
 {% highlight java %}
 public class Nota {
 	private Integer id;
 	private List<Produto> produtos;
+	private List<Vendedor> vendedores;
 	private Double valorTotalBruto;   //note a repetição de valorTotal, para evitar
 	private Double valorTotalLiquido; //dúvidas sobre qual valor será apresentado
 	private Double valorICMS;
 	private Double valorST;
 	private Boolean emitida;
+	private Boolean expedicao;
 
 	//Outros valores de notas
 
@@ -37,6 +39,7 @@ public class Nota {
 		this.icms = 0.0;
 		this.st = 0.0;
 		this.emitida = false;
+		this.expedicao = false;
 	}
 }
 
@@ -68,6 +71,13 @@ public class NotaServiceImpl implements NotaService {
 }
 {% endhighlight %}
 
-Há um padrão nesse código que pode parecer chato de ficar repetindo: o fato da palavra valor constar em todos os atributos referentes a valores financeiros. Porém, usando o poderoso autocompletar que uma IDE oferece, essa repetição desaparece e fica-se com um código mais claro. Por que repetir? Simples, muitas vezes encontramos códigos citando somente "totalProdutos", e depois descobrimos que esse "totaĺ" na verdade refere-se a quantidade de produtos. Já passou por isso?
+Na classe *Nota* pode-se aferir que os dados do tipo Double foram mantidos juntos. Nesse caso esse tipo de organização promove uma fácil localização do dado sem a utilização de buscas ou outlines(no caso do Eclipse), além do impacto na visualização rápida do código ser muito menor.
 
-Outro ponto a ser notado é que eu optei por não abreviar palavras. Por que? Para facilitar a leitura de uma pessoa de fora do time, ou recém chegada. Às vezes só o fato de existir um termo abreviado que oculte uma palavra um pouco diferente já atrasa o entendimento do código. Com ressalvas, claro, para quando a abreviação é uma sigla, e esta sigla é mais conhecida do que sua escrita por extenso(no caso, ICMS e ST).
+Ainda na classe Nota, foram inicializados quase todos os atributos que utilizam wrappers. O atributo *id* não foi inicializado pois é a partir dele que detectamos se é uma inserção no sistema ou uma alteração. Ou seja, quando *id* for *null* então temos uma inserção, do contrário, temos uma alteração.
+
+Há um padrão nesse código que pode parecer chato de ficar repetindo: o uso da palavra *valor* em todos os atributos referentes a valores financeiros. Porém, usando o poderoso autocompletar que uma IDE oferece, essa repetição deixa de ser tão aparente e conseguimos manter um código mais claro. Isso ocorre para evitarmos aquela situação onde muitas vezes encontramos códigos citando somente "totalProdutos", e depois descobrimos que esse "totaĺ" na verdade refere-se a quantidade de produtos. Já passou por isso?
+
+Também deve ser notado que optou-se por não abreviar palavras. Isso para facilitar a leitura de uma pessoa de fora do time, ou recém chegada. Às vezes só o fato de existir um termo abreviado que oculte uma palavra um pouco diferente já atrasa o entendimento do código. Com ressalvas, claro, para quando a abreviação é uma sigla, e esta sigla é mais conhecida do que sua escrita por extenso(no caso, ICMS e ST).
+Há casos em que uma política de treinamento já ajuda muito, mas de qualquer forma, muitos termos abreviados levam a uma curva de adaptação maior.
+
+No início, diversos dos pontos citados acima parece preciosismo desmedido, porém cada um desses pontos facilita e diminui consideravelmente o tempo de compreensão do código, o que deixa a vida do programador mais fácil, possibilita um aumento na produção e torna o código manutenível a longo prazo(claro, quando aliado a boas práticas de arquitetura e design de software).
