@@ -8,7 +8,7 @@ Há algumas situações onde pode acontecer de você ter um EJB dependendo de ou
 Com isso, temos uma dependência circular, que não apontara erro em compilação, porém no momento em que dos dois EJB's for necessário, serão mostradas algumas mensagens relativas a esse tipo de problema.  
 *TODO: pegar mensagens de referência circular*  
 
-O correto, conforme apontado [aqui][] e [aqui][], seria revisar a arquitetura, pois esse tipo de situação 
+O correto, conforme apontado [aqui][] e [aqui][], seria revisar a arquitetura, pois esse tipo de situação indica que dois tipos de dados/recursos são dependentes entre si e você est
 
 Eu preferi montar um EJB que centralize os dois Repository, me livrando de utilizar uma referência circular.
 No meu caso, pq a referência circular aconteceu?
