@@ -542,3 +542,38 @@ a:visited { color: #205caa; }
 	padding-right: 10px;
 	padding-bottom: 10px;
 }
+
+.social-share {
+	width: 140px;
+	height: 30px;
+}
+
+.social-share-element{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+#social-facebook{
+	background-image: url("../images/social_media/fb.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+
+#social-google{
+	background-image: url("../images/social_media/gplus.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+
+#social-twitter{
+	background-image: url("../images/social_media/twitter.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}
+
+#social-linkedin{
+	background-image: url("../images/social_media/linkedin.png");
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+}

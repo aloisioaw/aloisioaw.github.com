@@ -11,11 +11,21 @@ layout: default
   {{ content }}
   </article>
 
+<h4>Compartilhe o post!</h4>
+<div class="social-share">
+    <a class="social-share-element" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ site.url }}{{ page.url }}" target="_blank" title="Compartilhar no Facebook"></a>
+
+    <a class="social-share-element" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=aloisioaw&hashtags={{ tagStr }}" target="_blank" title="Compartilhar no Twitter"></a>
+
+    <a class="social-share-element" id="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Compartilhar no Google Plus"></a>
+    
+    <a class="social-share-element" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank" title="Compartilhar no LinkedIn"></a>
+</div>
+
 	{% if page.comments %}
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
-		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-		    var disqus_shortname = 'aloisioaw'; // required: replace example with your forum shortname
+		    var disqus_shortname = 'aloisioaw'; 
 
 		    /* * * DON'T EDIT BELOW THIS LINE * * */
 		    (function() {
