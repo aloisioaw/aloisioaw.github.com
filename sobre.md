@@ -4,20 +4,22 @@ title: Sobre
 permalink: /sobre/
 ---
 
-Sou um desenvolvedor de sistemas que mora em <strike>Passo Fundo</strike> Porto Alegre - RS e busca conhecer um bocado de tudo o que há nessa fantástica área.  
+<div class="divFoto">
+	<img src="/images/sobre.jpg" />
+</div>
 
-Tive alguns anos de experiëncia no interior do estado, onde pude desempenhar os mais variados papéis(desde arquitetura até manutenção).  
+<div class="divTexto">
+	<p>Olá! Meu nome é Aloisio Arsego Wohlmeister.</p>
 
-Agora, na capital gaúcha estou buscando expandir meus conhecimentos e experiências!  
+	<p>Trabalho profissionalmente desde 2010 na área de desenvolvimento de sistemas, que é uma grande paixão minha.</p>
 
-Trabalho desde 2010 profissionalmente na área de desenvolvimento de sistemas. Desde então, tive diversas experiências com variadas tecnologias.
-As maiores foram:  
+	<p>
+	Desde então, me especializei em Java e suas especificações.
+	Tive alguns anos de experiência no interior do estado, onde pude desempenhar os mais variados papéis, desde arquitetura, análise, levantamento de requisitos até desenvolvimento e manutenção de código.
+	E já trabalhei com BackEnd(Serviços, Jobs e outros) e FrontEnd(JSF, JSP, HTML, CSS, Javascript).</p>
 
-* HTML;  
-* CSS;  
-* JavaScript(muito mais jQuery do que JavaScript, mas é sei um pouco da base ao menos);  
-* PHP;  
-* Delphi;  
-* Java(e uma boa gama de especificações do mesmo);  
+	<p>Agora, na capital gaúcha estou testando e expandindo meus conhecimentos e experiências.</p>
 
-Tenho um interesse especial por Ruby, seus frameworks e comunidade, apesar de nunca ter conseguido trabalhar ou estudar muito além de alguns scripts com ela.
+	<p>Esse blog contém um bocado desse caminho e o que há de legal nesta fantástica área.</p>
+	<p>Acompanhe! :D</p>
+</div>
