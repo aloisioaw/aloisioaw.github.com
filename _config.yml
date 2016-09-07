@@ -4,8 +4,9 @@ email: aloisioaw@gmail.com
 description: "Minhas anotações sobre desenvolvimento de software e outras coisas."
 baseurl: ""
 url: "http://aloisioaw.github.io/"
-twitter_username: aloisioaw
-github_username:  aloisioaw
+github_username: aloisioaw
+linkedin: "http://br.linkedin.com/pub/aloisio-arsego-wohlmeister/21/372/637"
+github: "https://github.com/aloisioaw"
 
 # Build settings
 markdown: kramdown
