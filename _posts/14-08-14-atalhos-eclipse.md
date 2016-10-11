@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Atalhos do Eclipse"
-author: Aloisio Arsego Wohlmeister
+author: aloisioaw
 categories: eclipse
 comments: true
 ---

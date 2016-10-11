@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Uso indiscriminado de herança e complexidade de código"
-author: Aloisio Arsego Wohlmeister
+author: aloisioaw
 categories: padroes
 comments: true
 ---

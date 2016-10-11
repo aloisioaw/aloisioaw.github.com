@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pequena comparação: Eclipse x Netbeans"
-author: Aloisio Arsego Wohlmeister
+author: aloisioaw
 categories: ide
 comments: true
 ---

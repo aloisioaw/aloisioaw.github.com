@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Glassfish: Como retirar informações desnecessárias do header da requisição"
-author: Aloisio Arsego Wohlmeister
+author: aloisioaw
 categories: segurança
 comments: true
 ---

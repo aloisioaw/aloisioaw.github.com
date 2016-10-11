@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Padronização de Código - Parte 1"
-author: Aloisio Arsego Wohlmeister
+author: aloisioaw
 categories: padroes
 comments: true
 ---

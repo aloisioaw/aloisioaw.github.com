@@ -11,3 +11,9 @@ github: "https://github.com/aloisioaw"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#Author
+authors:
+  aloisioaw:
+    display_name: Aloisio Arsego Wohlmeister
+    about_page: sobre
