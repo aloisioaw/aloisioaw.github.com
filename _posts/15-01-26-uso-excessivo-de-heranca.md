@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Uso indiscriminado de herança e complexidade de código"
+title:  "Uso excessivo de herança e complexidade de código"
 author: aloisioaw
 categories: padroes
 comments: true
