@@ -21,7 +21,9 @@ permalink: /sobre/
 		Já trabalhei com BackEnd(Serviços, Jobs e outros) e FrontEnd(JSF, JSP, HTML, CSS, Javascript).
 	</p>
 
-	<p>Agora, na capital gaúcha estou testando e expandindo meus conhecimentos e experiências.</p>
+	<p>Depois de sair da minha cidade natal, Nova Prata, me estabeleci em Passo Fundo, e depois em Porto Alegre.</p>
+
+	<p>Em 2019 aproveitei uma oportunidade para me mudar para Alemanha. Morei em Düsseldorf até o início de 2020, e agora estou em Köln(Colônia).</p>
 
 	<p>Esse blog contém um bocado desse caminho e o que há de legal nesta fantástica área.</p>
 	<p>Acompanhe! :D</p>
