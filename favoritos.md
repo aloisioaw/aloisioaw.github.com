@@ -13,7 +13,6 @@ Aqui fica uma lista dos meus sites/recursos favoritos. A maioria desses sites co
 *  [Vogella](http://www.vogella.com/) - Contém diversos tutoriais muito bons sobre uma gama ampla de tecnologias(minha principal fonte sobre Eclipse)
 
 #### Blogs
-*  [Agile4Fun](https://agile4fun.me/)
 *  [Akita On Rails](http://www.akitaonrails.com/)  
 *  [Caelum - Blog](http://blog.caelum.com.br)  
 *  [Coding Horror](http://www.codinghorror.com/blog/)
@@ -21,7 +20,7 @@ Aqui fica uma lista dos meus sites/recursos favoritos. A maioria desses sites co
 *  [Signal vs Noise](http://signalvnoise.com)
 
 #### Podcasts
-*  [GrokPodcast](http://www.grokpodcast.com/) - Podcast que aborda diversos pontos sobre desenvolvimento de software(tecnologias, linguagens, empresas)
+*  [GrokPodcast](http://www.grokpodcast.com.br/) - Podcast que abordou diversos pontos sobre desenvolvimento de software(tecnologias, linguagens, empresas)
 *  [Zone Of Front-Enders](http://zofe.com.br) - Podcast sobre front-end
 *  [hipsters.tech](http://hipsters.tech/) - Podcast da Alura
 *  [DevNaEstrada](http://devnaestrada.com.br/) - Podcast que aborda diversos pontos da vida de Dev, não só as partes técnicas
