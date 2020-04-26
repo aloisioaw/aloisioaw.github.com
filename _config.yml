@@ -17,3 +17,6 @@ authors:
   aloisioaw:
     display_name: Aloisio Arsego Wohlmeister
     about_page: sobre
+
+plugins:
+  - jekyll-sitemap
