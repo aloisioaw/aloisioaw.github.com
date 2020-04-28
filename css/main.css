@@ -38,6 +38,53 @@ a:visited { color: rgb(150, 150, 150); }
 	padding: 5px 30px !important;
 }
 
+/*
+	Overriding styles
+*/
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.txt-center {
+	text-align: center !important;
+}
+
+.txt-right {
+	text-align: right !important;
+}
+
+.va-top {
+	vertical-align: top !important;
+}
+
+.fnt-italic {
+	font-style: italic !important;
+}
+
+.fnt-bold {
+	font-weight: bold !important;
+}
+
+.no-indent {
+	text-indent: 0px !important;
+}
+
+.d-inline-block {
+	display: inline-block !important;
+}
+
+.pb-1em {
+	padding-bottom: 1em;
+}
+
+.fnt-12px {
+	font-size: 12px;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -152,6 +199,18 @@ a:visited { color: rgb(150, 150, 150); }
 	top: 3px;
 }
 
+.github-lg-icon-svg,
+.twitter-lg-icon-svg,
+.linkedin-lg-icon,
+.email-lg-icon,
+.feed-lg-icon {
+	display: inline-block;
+	max-width: 36px;
+	max-height: 36px;
+	position: relative;
+	top: 3px;
+}
+
 .its_a_me {
 	display: inline-block;
 	width: 197px;
@@ -165,7 +224,6 @@ a:visited { color: rgb(150, 150, 150); }
 .page-content {
 	margin: 40px 0 0 0;
 	padding: 30px 0;
-	/*background-color: #fff;*/
 }
 
 
@@ -587,20 +645,18 @@ a:visited { color: rgb(150, 150, 150); }
 /*  Sobre  */
 .divFoto {
 	display: inline-block;
-	float: left;
-	width: 40%;
+	width: 29%;
 }
 
 .divFoto img {
-	width: 100%;
+	height: 308px;
 }
 
 .divTexto {
 	display: inline-block;
-	float: right;
-	width: 60%;
+	width: 70%;
 }
 
 .divTexto p {
-	padding-left: 15px;
+	margin-bottom: 0.8em;
 }
