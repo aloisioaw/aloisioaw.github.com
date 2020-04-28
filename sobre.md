@@ -15,13 +15,16 @@ permalink: /sobre/
 		Nasci no interior do Rio Grande do Sul, em Nova Prata e desde de muito cedo me interessei por computadores. Após sair da escola, desenvolvimento de sistemas se tornou uma grande paixão e não tive dúvidas: me formei em Análise e Desenvolvimento de Sistemas pelo SENAC Passo Fundo e segui depois para uma especialização em Análise e Desenvolvimento Web com Java na mesma instituição.
 	</p>
 	<p>
-			Desde 2010 trabalho na área, participei de vários projetos onde tive responsabilidades variadas, desde análise de requisitos até arquitetura. Já trabalhei com várias especificações Java(JSP, JSF, JPA, J, J, J...JOTA!!!!), Spring e várias soluções da Oracle. Recentemente, estou participando em projetos que rodam em Cloud e tem sido um excelente desafio. Pois muda a forma de fazer boa parte dos Kamehamehas do dia a dia.
+		Desde 2010 trabalho na área, participei de vários projetos onde tive responsabilidades variadas, desde análise de requisitos até arquitetura. Já trabalhei com várias especificações Java(JSP, JSF, JPA, J, J, J...JOTA!!!!), Spring e várias soluções da Oracle.
 	</p>
 	<p>
-		Hoje moro na Alemanha, meu foco está em BackEnd (Serviços, Jobs e outros) e como eterno curioso sigo aprendendo. Portanto, esse blog contém um bocado do que há de legal nesta fantástica área do que aprendi trilhando esse caminho e do que estou aprendendo no momento nessa experiência internacional.
+		Hoje moro na Alemanha, meu foco está em BackEnd (Serviços, Jobs e outros) e como eterno curioso sigo aprendendo. Atualmente, estou participando em projetos que rodam em Cloud e tem sido um excelente desafio, pois muda a forma de fazer boa parte dos Kamehamehas do dia a dia. 
+	</p>
+	<p>
+		Portanto, este blog foi criado para compartilhar um bocado do que há de legal nesta fantástica área, do que aprendi trilhando esse caminho e do que estou aprendendo no momento nessa experiência internacional.
 	</p>
 	<p class="mb-0">
-		Ficou curioso com os Kamehamehas? Quer aprender uns paranauês? Quer compartilhar algo ou discutir alguma coisa? Me segue também nas redes sociais!
+		Ficou curioso com os Kamehamehas? Quer aprender uns paranauês? Quer compartilhar ou discutir alguma coisa? Me segue também nas redes sociais!
 	</p>
 	<div class="contatos txt-center pb-1em">
 		<a class="d-inline-block" href="mailto:{{ site.email }}">
@@ -42,7 +45,7 @@ permalink: /sobre/
 		Não deseje menos problemas, deseje mais habilidades. <br/>
 		Não deseje um desafio menor, deseje mais sabedoria.
 	</p>
-<p class="fnt-bold txt-right fnt-12px fnt-italic">
+<p class="fnt-bold txt-right fnt-12px fnt-italic" style="padding-right: 63px;">
 	Jim Rohn
 </p>
 </div>
