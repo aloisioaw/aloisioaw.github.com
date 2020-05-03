@@ -4,6 +4,7 @@ title:  "Livro - Introdução a Arquitetura e Design de Software - Review"
 author: aloisioaw
 categories: livros
 comments: true
+tags: [Livros, Arquitetura]
 ---
 
 <img src="/images/livros/capa-introducao-arquitetura-design-software.png" class="capa-livro"/>

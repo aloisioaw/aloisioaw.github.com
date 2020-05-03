@@ -4,6 +4,7 @@ title:  "Serverless: e aí? Você usa?"
 categories: serverless
 author: aloisioaw
 comments: true
+tags: [Serverless, AWS]
 ---
 
 Você até conhece Serverless, mas não sabe as vantagens e desvantagens? Para que serve? Onde vive? Do que se alimenta? E por que não está no Globo Repórter? Se sua resposta foi “não” ou “talvez” já está mais do que na hora de saber. Se sua resposta foi “sim”, bem, continue aqui e veja se concorda com minha opinião.

@@ -4,6 +4,7 @@ title:  "Uso excessivo de herança e complexidade de código"
 author: aloisioaw
 categories: padroes
 comments: true
+tags: [Herança, Padrões]
 ---
 
 Já teve a sensação de que aquele código que devia ser simples está complexo demais? Será que é por conta daquele método misterioso que não se encontra na classe que você está olhando, mas é invocado com um this na frente? Ou será que é aquela variável que simplesmente não está instanciada em lugar algum? De repente você encontra a origem! Entra em cena a herança! A classe pai contém as respostas! Espera...Ou será a classe avô? Ou o bisa? Ou...

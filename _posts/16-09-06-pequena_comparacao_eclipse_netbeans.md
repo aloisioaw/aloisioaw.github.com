@@ -4,6 +4,7 @@ title:  "Pequena comparação: Eclipse x Netbeans"
 author: aloisioaw
 categories: ide
 comments: true
+tags: [Eclipse, Netbeans, IDE]
 ---
 
 No meu trabalho, acabo lidando com diversas tecnologias. Cada tecnologia tem seu conjunto de ferramentas e facilitadores. Para algumas delas, temos IDEs específicas como o jDeveloper. Há pouco tempo me deparei com alguns projetos que estão atrelados ao processo de build de uma IDE específica, o NetBeans. Sendo assim, passei algum tempo usando somente essa IDE, a fim de me acostumar com os pormenores. Explorei configurações para melhorias de performance(como desligar plugins), mudança de atalhos para ficar igual ao Eclipse e outros. Porém, descobri 2 pontos onde eu não consegui melhorar e entender o funcionamento do NetBeans.

@@ -4,6 +4,7 @@ title:  "Padronização de Código - Parte 1"
 author: aloisioaw
 categories: padroes
 comments: true
+tags: [Padrões]
 ---
 
 Ao ler livros como "Código Limpo" do Robert Martin(aka [Uncle Bob](https://twitter.com/unclebobmartin)), é possível ver como algumas técnicas extremamente úteis e benéficas não são exercitadas, como refatoração e padronização de código.

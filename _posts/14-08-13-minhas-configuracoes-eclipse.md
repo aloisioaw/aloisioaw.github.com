@@ -4,6 +4,7 @@ title:  "Minhas Configurações do Eclipse"
 author: aloisioaw
 categories: eclipse
 comments: true
+tags: [Eclipse]
 ---
 
 
