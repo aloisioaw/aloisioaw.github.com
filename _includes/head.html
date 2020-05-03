@@ -8,5 +8,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <script data-ad-client="ca-pub-2184451793341093" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
+    {% if jekyll.environment == "production" %}
+      <script data-ad-client="ca-pub-2184451793341093" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {% endif %}
 </head>
