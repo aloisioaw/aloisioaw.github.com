@@ -5,7 +5,26 @@ layout: default
 	<header class="post-header">
 		<h1>{{ page.title }}</h1>
 		{% assign author = site.authors[page.author] %}
-		<p class="meta">{{ page.date | date: "%d/%m/%Y" }}{% if page.author %} • <a href="/{{ author.about_page }}">{{ author.display_name }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+		<p class="meta">
+			{{ page.date | date: "%d/%m/%Y" }}
+			{% if page.author %} | 
+				<a href="/{{ author.about_page }}">{{ author.display_name }}</a>
+			{% endif %}
+
+			{% comment %}
+			=======================
+			Adds tags separating by comma
+			=======================
+			{% endcomment %}
+			{% if page.tags %} | Tags: 
+				{% for tag in page.tags %}
+					{% assign tagContent = tag %}
+					{% if forloop.index < page.tags.size %}
+						 {% assign tagContent = tagContent | append: ',' %}
+					{% endif %}
+					<a href="{{ site.baseurl }}{% link tags.md %}#{{ tag | slugify }}">{{ tagContent }}</a> 
+				{% endfor %}
+			{% endif %}
 		</p>
 	</header>
 
@@ -15,11 +34,11 @@ layout: default
 
 	<h4>Compartilhe o post!</h4>
 	<div class="social-share">
-			<a class="social-share-element" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ site.url }}{{ page.url }}" target="_blank" title="Compartilhar no Facebook"></a>
+		<a class="social-share-element" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ site.url }}{{ page.url }}" target="_blank" title="Compartilhar no Facebook"></a>
 
-			<a class="social-share-element" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=aloisioaw&hashtags={{ tagStr }}" target="_blank" title="Compartilhar no Twitter"></a>
-			
-			<a class="social-share-element" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank" title="Compartilhar no LinkedIn"></a>
+		<a class="social-share-element" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via=aloisioaw&hashtags={{ tagStr }}" target="_blank" title="Compartilhar no Twitter"></a>
+		
+		<a class="social-share-element" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ site.url }}{{ page.url }}&source={{ site.url }}" target="_blank" title="Compartilhar no LinkedIn"></a>
 	</div>
 
 	{% if page.comments and jekyll.environment == "production" %}
