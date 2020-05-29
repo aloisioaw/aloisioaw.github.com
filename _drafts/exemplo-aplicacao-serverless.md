@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  "Exemplo de Aplicação Serverless"
+title:  "Serverless - Vamos colocar a mão na massa?"
 categories: serverless
 author: aloisioaw
 comments: true
 tags: [Serverless, AWS, Bitbucket, Node.js, Node, CloudWatch, CloudFormation]
 ---
-
 
 Seguindo no ritmo de Serverless, vamos colocar a mão na massa!
 Que tal se, ao invés de ter que ler um monte de documentação e bater a cabeça na parede tentando entender as permissões necessárias pra fazer a sua pequena aplicação rodar, você pudesse pegar um exemplo que seja fácil de rodar e modificar pra estudar?
