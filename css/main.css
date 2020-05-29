@@ -99,7 +99,7 @@ a:visited { color: #BCBCBCFF; }
 	background-color: #000000;
 }
 
-.site-title,
+/*.site-title,
 .site-title:hover,
 .site-title:visited {
 	display: block;
@@ -110,6 +110,10 @@ a:visited { color: #BCBCBCFF; }
 	line-height: 36px;
 	position: relative;
 	z-index: 1;
+}*/
+
+.site-title img {
+	height: 27px;
 }
 
 .site-nav {
