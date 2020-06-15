@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Exemplo de Aplicação Serverless"
+title:  "Serverless: Vamos colocar a mão na massa?"
 categories: serverless
 author: aloisioaw
 comments: true
