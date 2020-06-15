@@ -34,17 +34,22 @@ The following part removes duplicated tags and invalid tags like blank tag.
   {% endif %}
 {% endfor %}
 
-
 {% comment %}
 =======================
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
-{% for tag in tags %}
-  <a href="#{{ tag | slugify }}"> {{ tag }} </a> |
-{% endfor %}
+<div>
+  {% for tag in tags %}
+    {% assign tagContent = tag %}
+    {% if forloop.index < tags.size %}
+      {% assign tagContent = tagContent | append: ' | ' %}
+    {% endif %}
 
-<br/>
+    <a href="{{ site.baseurl }}{% link tags.md %}#{{ tag | slugify }}">{{ tagContent }}</a> 
+  {% endfor %}
+</div>
+
 <br/>
 
 {% comment %}

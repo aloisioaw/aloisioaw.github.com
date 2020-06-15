@@ -3,13 +3,57 @@ layout: default
 ---
 
 <div class="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br />
-        {{ post.excerpt | strip_html | truncate: 105 }}
-      </li>
-    {% endfor %}
-  </ul>
+	<ul class="posts">
+		{% for post in site.posts %}
+			<li>
+				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><br />
+				{{ post.excerpt | strip_html | truncate: 105 }}
+				<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+			</li>
+		{% endfor %}
+	</ul>
+
+	{% comment %}
+	=======================
+	The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+	=======================
+	{% endcomment %}
+
+	{% assign rawtags = "" %}
+	{% for post in site.posts %}
+		{% assign ttags = post.tags | join:'|' | append:'|' %}
+		{% assign rawtags = rawtags | append:ttags %}
+	{% endfor %}
+	{% assign rawtags = rawtags | split:'|' | sort %}
+
+	{% comment %}
+	=======================
+	The following part removes duplicated tags and invalid tags like blank tag.
+	=======================
+	{% endcomment %}
+
+	{% assign tags = "" %}
+	{% for tag in rawtags %}
+		{% if tag != "" %}
+			{% if tags == "" %}
+				{% assign tags = tag | split:'|' %}
+			{% endif %}
+			{% unless tags contains tag %}
+				{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+			{% endunless %}
+		{% endif %}
+	{% endfor %}
+	
+	{% comment %}
+	=======================
+	The purpose of this snippet is to list all the tags you have in your site.
+	=======================
+	{% endcomment %}
+	{% for tag in tags %}
+		{% assign tagContent = tag %}
+		{% if forloop.index < tags.size %}
+			{% assign tagContent = tagContent | append: ' | ' %}
+		{% endif %}
+		<a href="{{ site.baseurl }}{% link tags.md %}#{{ tag | slugify }}">{{ tagContent }}</a> 
+	{% endfor %}
 </div>

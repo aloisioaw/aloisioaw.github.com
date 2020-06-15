@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Serverless - Vamos colocar a mão na massa?"
+title:  "Serverless: Vamos colocar a mão na massa?"
 categories: serverless
 author: aloisioaw
 comments: true
