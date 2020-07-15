@@ -100,17 +100,14 @@ a:visited, .its_a_me a { color: #737373FF; }
 	background-color: #000000;
 }
 
-.site-title,
-.site-title:hover,
-.site-title:visited {
-	display: block;
-	color: #C1C1C1;
-	font-size: 26px;
-	letter-spacing: -1px;
-	float: left;
-	line-height: 36px;
-	position: relative;
-	z-index: 1;
+.site-title {
+	margin-top: 5px;
+    display: inline-block;
+}
+
+.site-title img {
+	height: 27px;
+	vertical-align: middle;
 }
 
 .site-nav {
