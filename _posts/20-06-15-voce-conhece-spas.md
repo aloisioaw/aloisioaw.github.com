@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Você conhece SPAs?"
-categories: serverless
+categories: spa
 author: aloisioaw
 comments: true
 tags: [Básico, Iniciante, SPA]
