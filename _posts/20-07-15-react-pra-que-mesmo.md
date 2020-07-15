@@ -22,7 +22,8 @@ Uma dessas ferramentas é o React, vamos falar um pouco sobre ele?
 - TOC 
 {:toc}
 
-## Tá, mas e ai? O que é o tal do React?
+
+## Tá, mas e aí, o que é o tal do React?
 
 Sumarizando em poucas palavras uma história longa: O React foi criado como uma solução interna para o Facebook. No processo de desenvolvimento e adoção da ferramenta criada, o Instagram demonstrou interesse em usar esses recursos em suas soluções e a partir daí o código foi sendo trabalhado para ser disponibilizado como uma biblioteca de código aberto. Bom pra gente! 😁
 
@@ -42,7 +43,7 @@ Tenho a intenção de utilizar em um pequeno projeto pessoal que tenho desenvolv
 
 ## Vantagens
 
-Dentre as várias possibilidades do mercado, entre elas Backbone.js e Angular, o React se destacou por ter uma comunidade gigante de entusiastas e usuários. Isso quer dizer que há uma documentação vasta e rica sobre o assunto. Desde problemas no StackOverflow até livros, vídeos e tutoriais. Isso sem falar nos inúmeros complementos disponíveis. Até mesmo o Bootstrap tem uma maneira fácil de ser utilizado com React.
+Dentre as várias possibilidades do mercado, entre elas Backbone.js e Angular, o React se destacou por ter uma comunidade gigante de entusiastas e usuários, isso quer dizer que há uma documentação vasta e rica sobre o assunto, abrange desde problemas no StackOverflow até livros, vídeos e tutoriais. Isso sem falar nos inúmeros complementos disponíveis, até mesmo o Bootstrap tem uma maneira fácil de ser utilizado com React.
 
 A documentação provida pelo site da library também é bastante compreensiva, fácil de usar, contém exemplos e tem os conceitos escritos de maneira clara.
 
@@ -60,7 +61,7 @@ Para quem utiliza os recursos da AWS, existe o Amplify, que facilita a utilizaç
 
 É difícil colocar desvantagens, pois eu pessoalmente ainda não as vi, e as outras pessoas colocam algumas coisas como curva de aprendizado, documentação e orientação de criação de telas como coisas ruins. 
 
-O que eu posso apontar como ruim é que o código pode virar um spaghetti muito facilmente dependendo de como você montar os componentes. É muito fácil começar a cruzar dependências e parâmetros para todos os lados e terminar com um código que não vai ser fácil de manter depois de 1 semana de trabalho. E então ao invés de uma solução você tem um estorvo. 
+O que eu posso apontar como ruim é que o código pode virar um “spaghetti” muito facilmente dependendo de como você montar os componentes. É muito fácil começar a cruzar dependências e parâmetros para todos os lados e terminar com um código que não vai ser fácil de manter depois de 1 semana de trabalho e então ao invés de uma solução você tem um estorvo. 
 
 
 ## Por que usar?
@@ -78,7 +79,7 @@ O fato de continuar sendo um padrão de mercado é bastante apelativo. Existem v
 
 Isso é muito bom pois permite que você aprenda a utilizar uma biblioteca que terá suporte por um bom tempo, e também pode utilizar em uma gama infinita de projetos.
 
-Dentre as ferramentas disponíveis, existe um complemento para chamado React Developer Tools, que te possibilitar ver toda a ReactDOM. Isso facilita muito a resolver problemas e entender alguns comportamentos que não estão claros no seu código.
+Dentre as ferramentas disponíveis, existe um complemento chamado React Developer Tools, que te possibilitar ver toda a ReactDOM. Isso facilita muito a resolver problemas e entender alguns comportamentos que não estão claros no seu código.
 
 
 ## Conclusão
