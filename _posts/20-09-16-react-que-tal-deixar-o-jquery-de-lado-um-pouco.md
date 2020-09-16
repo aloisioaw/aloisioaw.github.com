@@ -52,11 +52,12 @@ O React se provou interessante por ter todos os pontos acima, e ainda por cima s
 
 ## Vantagens
 
-JSON + Componentes = React
+__JSON + Componentes = React__
+{: style="text-align: center"}
 
 No que o React é melhor do que o JQuery para criar Frontends? Tudo. Pronto. Pode ir pro próximo texto. "Deixa um like, se inscreve no canal e deixa um comentário.". Brincadeira! Até por que um pode complementar o outro, mas se você tentar usar o JQuery para as tarefas não qual o React é melhor, você vai ter dor de cabeça.
 
-Como eu já escrevi no texto &lt;link pro texto sobre React>, a parte de ele espelhar o estado de um JSON possibilita que o seu app React somente se preocupe em carregar a informação, montar o componente corretamente e prover alguma alteração de dados. Só isso. Se você fosse usar JQuery, teria que controlar o nome dos elementos HTML, efetuar trocas, e no final ainda por cima gerar o JSON para enviar para o Backend.
+Como eu já escrevi no texto [sobre React]({{site.baseurl}}{% post_url 20-07-15-react-pra-que-mesmo %}), a parte de ele espelhar o estado de um JSON possibilita que o seu app React somente se preocupe em carregar a informação, montar o componente corretamente e prover alguma alteração de dados. Só isso. Se você fosse usar JQuery, teria que controlar o nome dos elementos HTML, efetuar trocas, e no final ainda por cima gerar o JSON para enviar para o Backend.
 
 Além disso, pude ver que a quantidade de código boiler plate(aqueles métodos utilitários que você criar pra evitar se repetir ou pra instanciar algo complexo) é muito menor. Menos código, menos manutenção, menos dor de cabeça! Jóinha!
 
@@ -70,7 +71,7 @@ React inclui mais uma Library que deve ser carregada no projeto. É mais algo a 
 
 ## Por que usar?
 
-Levando em consideração que para refletir dados em um JSON numa tela usando JQUERY, você teria que fazer os seguinte:
+Levando em consideração que para refletir dados em um JSON numa tela usando JQUERY, você teria que fazer o seguinte:
 
 [https://jsfiddle.net/buildbreaker/cdaoL3sp/](https://jsfiddle.net/buildbreaker/cdaoL3sp/15/)
 
