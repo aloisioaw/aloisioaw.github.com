@@ -106,7 +106,6 @@ a:visited, .its_a_me a { color: #737373FF; }
 }
 
 .site-title img {
-	height: 27px;
 	vertical-align: middle;
 }
 
@@ -188,6 +187,7 @@ a:visited, .its_a_me a { color: #737373FF; }
 .github-icon-svg,
 .twitter-icon-svg,
 .linkedin-icon,
+.instagram-icon,
 .email-icon,
 .feed-icon {
 	display: inline-block;
@@ -200,6 +200,7 @@ a:visited, .its_a_me a { color: #737373FF; }
 .github-lg-icon-svg,
 .twitter-lg-icon-svg,
 .linkedin-lg-icon,
+.instagram-lg-icon,
 .email-lg-icon,
 .feed-lg-icon {
 	display: inline-block;
