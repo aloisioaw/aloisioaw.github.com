@@ -7,6 +7,10 @@ comments: true
 tags: [Serverless, AWS]
 ---
 
+[![Code Size](https://img.shields.io/github/languages/code-size/aloisioaw/exemplo-sls-deploy-website?style=flat-square)](https://github.com/aloisioaw/exemplo-sls-deploy-website)
+[![Star on GitHub](https://img.shields.io/github/stars/aloisioaw/exemplo-sls-deploy-website?style=flat-square)](https://github.com/aloisioaw/exemplo-sls-deploy-website)
+[![Forks on GitHub](https://img.shields.io/github/forks/aloisioaw/exemplo-sls-deploy-website?style=flat-square)](https://github.com/aloisioaw/exemplo-sls-deploy-website)
+
 Tem algumas coisas que enquanto eu não trabalhava mais recorrentemente com AWS me pareciam não caber, ou nunca chegarem nem perto ds produtos servidos pela gigante de vendas(ou seria gigante da TI? ...de Cloud? ...enfim). As vezes é difícil de acreditar na quantidade de produtos existentes hoje na AWS.
 Há algum tempo atrás eu descobri que era possível servir uma aplicação React/Angular usando S3 para servir os arquivos JS. Agora descobri que é possível também servir os arquivos HTML e configurar um index e uma página de erro padrão.
 Por isso, montei o exemplo abaixo. Dá uma olhada e me diz o que você acha. Boa leitura!
@@ -28,7 +32,7 @@ Algumas coisas são necessárias pra rodar esse projeto:
 
 ### Instruções
 
-- Faça o `git clone` do projeto;
+- Faça o `git clone` do [projeto](https://github.com/aloisioaw/exemplo-sls-deploy-website);
 - Leia as instruções no arquivo README.md;
 
 ### Quais componentes são criados?
