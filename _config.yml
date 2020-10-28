@@ -17,6 +17,8 @@ authors:
   aloisioaw:
     display_name: Aloisio Arsego Wohlmeister
     about_page: sobre
+  morganadp:
+    display_name: Morgana Dal Prá
 
 plugins:
   - jekyll-sitemap
